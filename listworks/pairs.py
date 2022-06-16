@@ -14,7 +14,26 @@
 
 
 
-lst=[2,3,4,6]                             # 15th video
+# lst=[2,3,4,6]                             # 15th video
+# element=7
+# lst.sort()                       # more efficient because iteration is less
+# low=0
+# upp=len(lst)-1
+# while(low<upp):
+#     current_sum=lst[low]+lst[upp]
+#     if current_sum==element:
+#         print("Pairs are",lst[low], lst[upp])
+#         break
+#     elif current_sum>element:
+#         upp-=1
+#     elif current_sum<element:
+#         low+=1
+#
+#
+
+
+
+lst=[2,3,4,6,5]                             # 15th video
 element=7
 lst.sort()                       # more efficient because iteration is less
 low=0
@@ -23,7 +42,7 @@ while(low<upp):
     current_sum=lst[low]+lst[upp]
     if current_sum==element:
         print("Pairs are",lst[low], lst[upp])
-        break
+        low+=1
     elif current_sum>element:
         upp-=1
     elif current_sum<element:
