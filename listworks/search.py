@@ -4,7 +4,7 @@
 
 # lst=[1,2,3,13,14,15,16,65,78,89]      # This is Linear Search
 # for element in lst:                   # here the efficiency of linear search is not best case because the looping takes long time
-#     if element==14:                   # since it takes each element and checks
+#     if element==89:                   # since it takes each element and checks
 #         print("Element found")
 #         break
 # else:
