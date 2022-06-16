@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b54adf1-7f4f-43de-a173-1b70fb05e867" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listworks/list operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listworks/listcommonelement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listworks/pairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listworks/oddlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/listworks/oddlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listworks/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/listworks/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listworks/frequent_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/listworks/frequent_element.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +42,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.listcommonelement">
-    <configuration name="evenlist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pairs">
+    <configuration name="frequent_element" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,7 +55,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listworks/evenlist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listworks/frequent_element.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="oddlist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listworks/oddlist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listworks/pairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pairs" />
+        <item itemvalue="Python.frequent_element" />
         <item itemvalue="Python.listcommonelement" />
         <item itemvalue="Python.search" />
         <item itemvalue="Python.list operations" />
-        <item itemvalue="Python.oddlist" />
-        <item itemvalue="Python.evenlist" />
       </list>
     </recent_temporary>
   </component>
