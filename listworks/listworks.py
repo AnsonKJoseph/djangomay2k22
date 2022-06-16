@@ -107,3 +107,17 @@
 # print(sum(numbers))
 
 
+# find count of pos,neg,zero count and their sums
+
+p_count=0
+n_count=0
+z_count=0
+numbers=[-1,2,3,-4,-6,0,0,0,-6,4,5,-7,8,9,0]
+for n in numbers:
+     if n>0:
+          p_count+=n
+     elif n<0:
+          n_count+=n
+     elif n==0:
+          z_count+=n
+print("Positive sum ",p_count," Negative sum ",n_count, " Zero sum ",z_count)
