@@ -1,8 +1,8 @@
-# binary search
+# program to search an element from the list
 
-arr=[11,12,13,14,15,16,17,18]
+arr=[10,11,12,13,14,15,16]
 flag=0
-element=15
+element=18
 arr.sort()
 low=0
 upp=len(arr)-1
@@ -16,5 +16,3 @@ while(low<=upp):
     elif element<arr[mid]:
         upp=mid-1
 print("Element found" if flag!=0 else "Element not found")
-
-
