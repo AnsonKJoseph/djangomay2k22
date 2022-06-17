@@ -33,7 +33,7 @@
 
 
 
-lst=[2,3,4,6,5]                             # 15th video
+lst=[2,3,4,6,5]                             # 15th video                # Algorithm
 element=7
 lst.sort()                       # more efficient because iteration is less
 low=0

@@ -1,5 +1,5 @@
-#builtins.py
-num=10
+# builtins.py
+num = 10
 print(num)
-num="Hello"
+num = "Hello"
 print(num)
