@@ -1,8 +1,15 @@
-list=[1,2,3,4,5,6,7,8]
-element=1
-flag=0
-for i in range(0,len(list)):
-    if element==list[i]:
-        flag=1
-        break
-print("Element found" if flag!=0 else "Element not found")
+# print sum of even numbers
+
+lst = [
+    [10, 11],
+    [13, 45],
+    [50, 15],
+    [60, 16],
+    [70, 60]
+]
+
+flatten_lst=[sub_lst for sub_lst in lst ]
+# even_nums=[num for num in flatten_lst if num%2==0]
+# print(sum(even_nums))
+print(flatten_lst)
+

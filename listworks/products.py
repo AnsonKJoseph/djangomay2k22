@@ -1,6 +1,6 @@
 mobiles = [
     [1000, "samsungA52", "4g", "AMOLED", 27000, "samsung", 12],
-    [1001, "samsungA52s", "5g", "AMoLED", 32000, "samsung", 20],
+    [1001, "samsungA52s", "5g", "AMOLED", 32000, "samsung", 20],
     [1002, "redminote10", "4g", "led", 17000, "redmi", 50],
     [1003, "redminote11pro", "5g", "superAMOLED", 20000, "redmi", 70],
     [1004, "samsungA72", "5g", "AMOLED", 27000, "samsung", 1],
@@ -12,6 +12,71 @@ mobiles = [
     [1010, "oneplusnordce2", "5g", "AMOLED", 23000, "oneplus",67],
 ]
 
-# q1 - number of mobiles ?
 
-# q2 -
+# q - number of mobiles ?
+
+# print("Total number of mobiles =",len(mobiles))
+
+# q1 - total no: of out of stock mobiles
+#
+# mobs=[mob for mob in mobiles if mob[-1]==0]
+# print(len(mobs))
+
+# q2 - total stock
+
+# mobs=[mob[-1] for mob in mobiles ]
+# print(sum(mobs))
+
+# q3 - print mobiles available in range 20K to 30K
+#
+# mobs=[mob for mob in mobiles if 20000<= mob[4] <=30000]
+# print(mobs)
+
+#      OR
+
+# mobs=[mob for mob in mobiles if mob[4] in range(20000,30001)]
+# print(mobs)
+
+
+# q4 - print all 5G phones
+
+# mobs=[mob for mob in mobiles if mob[2]=="5g"]
+# print(mobs)
+
+# q5 - print samsung mobiles
+
+# mobs=[mob for mob in mobiles if mob[-2]=="samsung"]
+# print(mobs)
+
+# q6 - print costly mobile
+
+# mobs=max([mob[4] for mob in mobiles])
+# costly_pro=[mob for mob in mobiles if mob[4]==mobs]
+# print(costly_pro)
+
+
+
+# q7 - print low cost mobile
+
+mobs=min([mob[-3] for mob in mobiles])
+low_cost=[mob for mob in mobiles if mob[-3]==mobs]
+print(low_cost)
+
+# q8 - print all mobiles having stock > 10
+
+# mobiles=[mob for mob in mobiles if mob[-1]>10]
+# print(mobs)
+
+
+# q9 - count of mobiles having display amoled
+
+
+
+# q10 - sort mobiles based on price order by desc
+
+
+
+# q11 - sort mobiles based on avl stock order by desc
+
+# q12 - is there any mobiles available at rs 10000 ?
+
