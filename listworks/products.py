@@ -1,6 +1,6 @@
 mobiles = [
     [1000, "samsungA52", "4g", "AMOLED", 27000, "samsung", 12],
-    [1001, "samsungA52s", "5g", "AMOLED", 32000, "samsung", 20],
+    [1001, "samsungA52s", "5g", "AMOLED", 32000, "samsung", 20],                                  # 18th video
     [1002, "redminote10", "4g", "led", 17000, "redmi", 50],
     [1003, "redminote11pro", "5g", "superAMOLED", 20000, "redmi", 70],
     [1004, "samsungA72", "5g", "AMOLED", 27000, "samsung", 1],
@@ -54,13 +54,25 @@ mobiles = [
 # costly_pro=[mob for mob in mobiles if mob[4]==mobs]
 # print(costly_pro)
 
+#      OR
+
+# costly_mob=max(mobiles,key=lambda m:m[4])
+# print(costly_mob)
+
+
 
 
 # q7 - print low cost mobile
 
-mobs=min([mob[-3] for mob in mobiles])
-low_cost=[mob for mob in mobiles if mob[-3]==mobs]
-print(low_cost)
+# mobs=min([mob[-3] for mob in mobiles])
+# low_cost=[mob for mob in mobiles if mob[-3]==mobs]
+# print(low_cost)
+
+#        OR
+
+# low_cost=min(mobiles,key=lambda m:m[4])
+# print(low_cost)
+
 
 # q8 - print all mobiles having stock > 10
 
@@ -70,13 +82,34 @@ print(low_cost)
 
 # q9 - count of mobiles having display amoled
 
+# count=[mob for mob in mobiles if mob[3]=="AMOLED"]
+# print(len(count))
 
 
-# q10 - sort mobiles based on price order by desc
+# q10 - sort mobiles based on price order by descending
 
+# mobiles.sort(reverse=True,key=lambda m:m[4])
+# print(mobiles)
 
+# q11 - sort mobiles based on avl stock order by descending
 
-# q11 - sort mobiles based on avl stock order by desc
-
+avl_stck=(mobiles.sort(reverse=True,key=lambda m:m[-1]))
+print(mobiles)
 # q12 - is there any mobiles available at rs 10000 ?
+
+mobs=[mob[4]==10000 for mob in mobiles ]
+print("Available" if True in mobs else "Not Available")                            # 18th video
+
+# q13 - most available stock
+
+# avl_stck=max(mobiles,key=lambda m:m[-1])
+# print(avl_stck)
+
+# q14 - least available stock
+
+# least_stck=min(mobiles, key=lambda m:m[-1])
+# print(least_stck)
+
+# q15 -
+
 

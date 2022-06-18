@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b54adf1-7f4f-43de-a173-1b70fb05e867" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listworks/languages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/practice1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/practice1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listworks/list_comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/listworks/list_comprehension.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listworks/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/listworks/products.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
