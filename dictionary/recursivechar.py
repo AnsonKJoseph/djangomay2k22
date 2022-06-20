@@ -14,13 +14,13 @@ for char in pattern:
 
 # shifna maam method
 
-pattern = "ABAACCDA"
-rec = " "  # AC
-patt = " "  # ABC
-for p in pattern:
-    if p not in patt:
-        patt += p
-    else:
-        rec += p
-print("first recursive element is", rec[1], " , Second recursive element is", rec[2])
-print(rec)
+# pattern = "ABAACCDA"
+# rec = " "  # AC
+# patt = " "  # ABC
+# for p in pattern:
+#     if p not in patt:
+#         patt += p
+#     else:
+#         rec += p
+# print("first recursive element is", rec[1], " , Second recursive element is", rec[2])
+# print(rec)
