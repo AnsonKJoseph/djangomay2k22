@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b54adf1-7f4f-43de-a173-1b70fb05e867" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dictionary/sslc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/most_recursive_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/most_recursive_element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/recursivechar.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/recursivechar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/sslc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/sslc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.accounts">
+  <component name="RunManager" selected="Python.sslc">
     <configuration name="accounts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,9 +170,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sslc" />
         <item itemvalue="Python.accounts" />
         <item itemvalue="Python.weather" />
-        <item itemvalue="Python.sslc" />
         <item itemvalue="Python.most_recursive_element" />
         <item itemvalue="Python.wordcount" />
       </list>
