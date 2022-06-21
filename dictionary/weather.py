@@ -22,6 +22,9 @@ weather = [
 
 ]
 
+# print the highest temp of all districts
+
+
 # out={"tvm":31,"ktm":29,}
 
 

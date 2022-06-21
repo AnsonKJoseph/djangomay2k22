@@ -35,10 +35,9 @@ accounts = [
     ]
     },
 
-
 ]
 
-acc={}
+acc = {}
 
 # q1 - print details of 1002
 # for ac in accounts:
@@ -57,8 +56,41 @@ acc={}
 
 # q3 - sort accounts based balance order by desc
 
-accounts.sort(reverse=True,key=lambda ac:ac["balance"])
-print(accounts)
-
+# accounts.sort(reverse=True, key=lambda ac: ac["balance"])
+# print(accounts)
 
 # q4 - print all transactions where transaction amount > 500
+
+all_transactions = [ac["transactions"] for ac in accounts]
+# print(all_transactions)
+stmnt_greater_fi = [trans for tlist in all_transactions for trans in tlist if trans["amount"] > 500]
+print(stmnt_greater_fi)
+
+# q5 - print all transactions using phone pay
+
+all_transactions = [ac["transactions"] for ac in accounts]
+# print(all_transactions)
+phone_pay = [trans for tlist in all_transactions for trans in tlist if trans["method"] == "phone-pay"]
+print(phone_pay)
+
+# q6 - print transactions coming to acc-1002
+
+all_transactions = [ac["transactions"] for ac in accounts]
+credit_trans = [trans for tlist in all_transactions for trans in tlist if trans["to"] == 1002]
+print(credit_trans)
+
+# q7 - print each payment method sum (aggregate transactions based on payment)
+
+pms = {}
+all_transactions = [ac["transactions"] for ac in accounts]
+transactions = [t for tlist in all_transactions for t in tlist]  # flattens list
+for transaction in transactions:
+    p_method = transaction["method"]
+    amount = transaction["amount"]
+    if p_method in pms:
+        pms[p_method] += amount
+    else:
+        pms[p_method] = amount
+
+print(pms)
+print(max(pms.items(), key=lambda item: item[1]))

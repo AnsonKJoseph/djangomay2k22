@@ -4,7 +4,7 @@ text = "hai hello hai hello"
 
 # words = text.split(" ")
 # print(words)
-# print(len(words))
+# # print(len(words))
 
 words = text.split(" ")
 word_count = {}
@@ -14,4 +14,7 @@ for w in words:
     else:
         word_count[w] = 1
 print(word_count)
+
+# print(words)
+
 

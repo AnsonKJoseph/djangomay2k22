@@ -1,6 +1,6 @@
 # print first recursive element
 
-pattern = "ABACCD"
+pattern = "ABCA"
 
 char_count = {}
 for char in pattern:
@@ -9,6 +9,7 @@ for char in pattern:
         break
     else:
         char_count[char] = 1
+print(char_count)
 
 #                 OR
 
