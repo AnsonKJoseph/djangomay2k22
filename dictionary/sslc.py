@@ -34,5 +34,3 @@ aplus=[res["A+"]for res in results ]                              # list compreh
 print(sum(aplus))
 
 
-
-

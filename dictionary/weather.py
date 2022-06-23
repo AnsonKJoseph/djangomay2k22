@@ -28,44 +28,47 @@ weather = [
 # out={"tvm":31,"ktm":29,}
 
 
-out={}
-
-for data in weather:
-    dist_name=data["district"]
-    cur_temp=data["temp"]
-    if dist_name in out:
-        old_temp=out[dist_name]
-        if cur_temp > old_temp:
-            out[dist_name]=cur_temp
-    else:
-        out[dist_name]=cur_temp
-
-print(out)
+# out={}
+# #
+# for data in weather:
+#     dist_name=data["district"]
+#     cur_temp=data["temp"]
+#     if dist_name in out:
+#         old_temp=out[dist_name]
+#         if cur_temp > old_temp:
+#             out[dist_name]=cur_temp
+#     else:
+#         out[dist_name]=cur_temp
+#
+# print(out)
 
 
 # sort out based on temparature
 
-srt_out=sorted(out.items(),key=lambda item:item[1],reverse=True)
-print(srt_out)
+# print(sorted(out.items(),key=lambda item:item[1],reverse=True))
+# print(srt_out)
+
+# print(sorted(weather,key=lambda w:w["temp"],reverse=True))
 
 # find max tem district
 
-print(max(weather, key=lambda w: w["temp"]))
+# print(max(weather, key=lambda w: w["temp"]))
 
 # find min tem district
 
-print(min(weather, key=lambda w: w["temp"]))
+# print(min(weather, key=lambda w: w["temp"]))
 
 # dictionary methods
 
 
-
-
-
-
-
-
-
-
-
-
+out={}
+for d in weather:
+    dist_n=d["district"]
+    dist_temp=d["temp"]
+    if dist_n in out:
+        old_temp=out[dist_n]
+        if dist_temp>old_temp:
+            out[dist_n]=dist_temp
+    else:
+        out[dist_n]=dist_temp
+print(out)
