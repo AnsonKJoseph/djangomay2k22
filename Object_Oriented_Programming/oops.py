@@ -15,4 +15,6 @@ s1 = Student("Anson", 11, "ECE")
 
 s1.print_student()
 
-# s2 = Student()
+s2 = Student("Athul",15,"ECE")
+
+s2.print_student()

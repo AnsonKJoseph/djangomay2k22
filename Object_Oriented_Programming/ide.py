@@ -5,7 +5,7 @@ class Editor:
 
 class Pycharm(Editor):
     def functionalities(self):
-        funcs=super().functionalities()
+        funcs=super().functionalities()                                     # use of super()
         funcs.append(["debug","versioncontrolling"])
         return funcs
 pyc=Pycharm()
