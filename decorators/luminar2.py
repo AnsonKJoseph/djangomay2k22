@@ -5,7 +5,7 @@ def admin_only(fn):
             print("admin permission required")
         else:
             fn(kwargs)
-        return wrapper
+    return wrapper
 
 
 class Employee():

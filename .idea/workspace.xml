@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b54adf1-7f4f-43de-a173-1b70fb05e867" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ecommerce/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ecommerce/estore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorators/fn_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorators/luminar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorators/luminar2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/check_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/largest_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students/st.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/constructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/constructor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/course_oops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/course_oops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/ide.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/ide.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/single_inheritance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/oops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/oops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce/estore.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce/estore.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/practice1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/practice1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kwargs/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwargs/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/luminar2.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators/luminar2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languagefundamentals/practise.py" beforeDir="false" afterPath="$PROJECT_DIR$/languagefundamentals/practise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +53,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager" selected="Python.practice1">
-    <configuration name="bottle_oops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.st">
+    <configuration name="check_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object_Oriented_Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object_Oriented_Programming/bottle_oops.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programs/check_word.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fn_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="largest_num" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,32 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/fn_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="luminar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="djangomay2k22" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/luminar.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\anson\PycharmProjects\djangomay2k22\programs\largest_num.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,13 +159,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="st" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangomay2k22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/students" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/students/st.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.st" />
+        <item itemvalue="Python.largest_num" />
+        <item itemvalue="Python.check_word" />
         <item itemvalue="Python.practice1" />
-        <item itemvalue="Python.luminar" />
         <item itemvalue="Python.luminar2" />
-        <item itemvalue="Python.bottle_oops" />
-        <item itemvalue="Python.fn_demo" />
       </list>
     </recent_temporary>
   </component>
