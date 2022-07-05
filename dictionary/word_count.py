@@ -16,5 +16,3 @@ for w in words:
 print(word_count)
 
 # print(words)
-
-

@@ -1,0 +1,12 @@
+janaganamana,2022,6,malayalam,theatre
+kgfchapter,2022,5,telugu,theatre
+beast,2022,3,thamil,theatre
+vikram,2022,8,thamil,theatre
+spiderman,2021,8,english,theatre
+joji,2021,5,malayalam,theatre
+dhrisyam2,2021,5,malayalam,ott
+home,2021,9,malayalam,ott
+jaibheam,2021,5,thamil,ott
+trans,2021,5,malayalam,ott
+anchampathira,2020,6,malayalam,ott
+forensic,2020,7,malayalam,ott
