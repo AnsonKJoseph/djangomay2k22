@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b54adf1-7f4f-43de-a173-1b70fb05e867" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/countries_json/dummy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countries_json/startswith.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/practice_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional_programming/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional_programming/functional_programming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional_programming/random_program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional_programming/songs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional_programming/songs_pro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional_programming/to_follow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional_programming/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/highest_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/master_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/three_sum_pair.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countries_json/question.py" beforeDir="false" afterPath="$PROJECT_DIR$/countries_json/question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileIO/readjson.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileIO/readjson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_practice/views_p.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_practice/views_p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error_Handling/handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Handling/handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/practice1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/practice1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries_json/dummy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileIO/readjson.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileIO/Blogs_readjson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Handling/raise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/check_word.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/largest_num.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +61,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager" selected="Python.question">
+  <component name="RunManager" selected="Python.views_p">
+    <configuration name="highest_num" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangomay2k22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/highest_num.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="movies_pro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="master_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fileIO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fileIO/movies_pro.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/master_word.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="question" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="practice1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/countries_json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countries_json/question.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/practice1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readjson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="raise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fileIO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Error_Handling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fileIO/readjson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Error_Handling/raise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="startswith" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="views_p" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangomay2k22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,32 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/countries_json" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blog_practice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countries_json/startswith.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="word_count" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="djangomay2k22" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dictionary" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\anson\PycharmProjects\djangomay2k22\dictionary\word_count.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blog_practice/views_p.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.question" />
-        <item itemvalue="Python.startswith" />
-        <item itemvalue="Python.readjson" />
-        <item itemvalue="Python.movies_pro" />
-        <item itemvalue="Python.word_count" />
+        <item itemvalue="Python.views_p" />
+        <item itemvalue="Python.practice1" />
+        <item itemvalue="Python.highest_num" />
+        <item itemvalue="Python.master_word" />
+        <item itemvalue="Python.raise" />
       </list>
     </recent_temporary>
   </component>
